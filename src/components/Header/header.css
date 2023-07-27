@@ -36,6 +36,8 @@ ul li a:hover {
 
 @media (max-width: 768px) {
   ul {
+    width: 100%;
+    justify-content: space-between;
     gap: 1em;
   }
 
