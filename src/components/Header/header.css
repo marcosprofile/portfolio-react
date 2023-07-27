@@ -26,7 +26,11 @@ a {
   transition: .2s all linear;
 }
 
-a:hover {
+ul li a {
+  font-size: 1.250em;
+}
+
+ul li a:hover {
   color: var(--primary);
 }
 
