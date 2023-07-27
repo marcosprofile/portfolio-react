@@ -46,9 +46,15 @@
   transform: translate(0, -0.25em);
 }
 
+@media (max-width: 1440px) {
+  .home {
+    padding: 8em 2em;
+  }
+}
+
 @media (max-width: 900px) {
   .home {
-    padding: 10em 2em;
+    padding: 7em 2em;
   }
 
   .home img {
