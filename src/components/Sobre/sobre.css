@@ -43,11 +43,11 @@
 
 @media (max-width: 712px) {
   .sobre {
-    padding: 0 2em 8em 2em;
+    padding: 0 1em 8em 1em;
   }
 
   .sobre p {
-    width: 94%;
+    width: 100%;
   }
   .redes {
     gap: 1em;
