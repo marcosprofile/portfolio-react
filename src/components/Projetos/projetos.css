@@ -16,3 +16,16 @@
     padding: 0 1em;
   }
 }
+
+@media (max-width: 600px) {
+  .container__projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    gap: 1em;
+  }
+
+  .container__projetos .card img {
+    height: 72px;
+  }
+}
