@@ -17,7 +17,7 @@ export default function Inicio(props) {
           >
             Download CV
           </a>
-          <a href='' className='secondary'>Projetos</a>
+          <a href='#projetos' className='secondary'>Projetos</a>
         </div>
       </div>
       <img src={Designer} alt='Designer' draggable="false" />
