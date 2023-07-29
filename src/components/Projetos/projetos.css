@@ -28,4 +28,8 @@
   .container__projetos .card img {
     height: 128px;
   }
+
+  .container__projetos .card .info p {
+    font-size: 14px;
+  }
 }
