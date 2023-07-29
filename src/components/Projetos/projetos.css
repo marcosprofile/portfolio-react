@@ -10,3 +10,9 @@
     padding: 0 6em;
   }
 }
+
+@media (max-width: 768px) {
+  .container__projetos {
+    padding: 0 1em;
+  }
+}

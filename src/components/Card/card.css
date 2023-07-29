@@ -1,11 +1,12 @@
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1em;
   background: var(--secondary);
   border-radius: .5em;
   padding: 1em 0;
-  flex-basis: 412px;
+  flex-basis: 400px;
   flex-grow: 1;
   transition: .2s all linear;
 }
@@ -30,6 +31,12 @@
   margin-top: .5em;
   line-height: 156%;
   font-weight: 300;
+}
+
+@media (max-width: 1440px) {
+  .card {
+    flex-basis: 340px;
+  }
 }
 
 @media (max-width: 768px) {
