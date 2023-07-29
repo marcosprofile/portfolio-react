@@ -8,17 +8,37 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 160px;
 }
 
 body {
   font-family: Inter, sans-serif;
   background: var(--background);
+  color: var(--text);
 }
 
-@media (max-width: 900px) {
-  html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 6em;
+h2 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
+  gap: 3em;
+  padding: 8em 2em;
+}
+
+@media (max-width: 1440px) {
+  .divContainer {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divContainer {
+    padding: 0 1em 8em 1em;
+    height: auto;
   }
 }

@@ -1,19 +1,15 @@
 import Sobre from '../../components/Sobre/Sobre'
 import Inicio from '../../components/Inicio/Inicio'
+import Projetos from '../../components/Projetos/Projetos'
+import Servicos from '../../components/Servicos/Servicos'
 
 export default function Home() {
   return (
-    <div className='container'>
-      <Inicio
-        nome='Marcos L. Ferreira'
-        cargo='UI/UX Designer | Developer'
-      />
-      <Sobre
-        linkGithub='https://github.com/marcosprofile'
-        linkBehance='https://www.behance.net/marcoslferreira'
-        linkLinkedin='https://www.linkedin.com/in/marcosdesigntech/'
-        linkOutlook='mailto:marcos.designtech@hotmail.com'
-      />
+    <div className="home__container">
+      <Inicio />
+      <Sobre />
+      <Servicos />
+      <Projetos />
     </div>
   )
 }

@@ -1,0 +1,23 @@
+.rede__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 2em;
+  border-radius: .5em;
+  background: var(--secondary);
+}
+
+.rede__link:hover {
+  color: var(--text);
+  transform: translate(0, -0.25em);
+  box-shadow: 0 0 2em -0.625em var(--primary);
+}
+
+@media (max-width: 768px) {
+  .rede__link:hover {
+    color: var(--text);
+    box-shadow: none;
+    transform: translate(0, -0.25em);
+  }
+}

@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: var(--secondary);
+  border-radius: .5em;
+  padding: 1em 0;
+  flex-basis: 412px;
+  flex-grow: 1;
+  transition: .2s all linear;
+}
+
+.card:hover {
+  transform: translate(0, -0.25em);
+  box-shadow: 0 0 2em -0.625em var(--primary);
+}
+
+.card img {
+  width: 412px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.info {
+  text-align: center;
+  padding: 0 1em;
+}
+
+.info p {
+  margin-top: .5em;
+  line-height: 156%;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .card:hover {
+    box-shadow: none;
+  }
+}
