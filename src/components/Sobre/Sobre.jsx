@@ -23,17 +23,17 @@ export default function Sobre(props) {
           nome="GitHub"
         />
         <RedeSocial
-          link="https://behance.com/marcosprofile"
+          link="https://www.behance.net/marcoslferreira"
           imagem="img/redes/behance.png"
           nome="Behance"
         />
         <RedeSocial
-          link="https://linkedin.com/marcosprofile"
+          link="https://www.linkedin.com/in/marcosdesigntech/"
           imagem="img/redes/linkedin.png"
           nome="LinkedIn"
         />
         <RedeSocial
-          link="https://outlook.com/marcosprofile"
+          link="mailto:marcos.designtech@hotmail.com"
           imagem="img/redes/outlook.png"
           nome="Outlook"
         />
