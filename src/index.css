@@ -43,3 +43,9 @@ h2 {
     height: auto;
   }
 }
+
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 6em;
+  }
+}
