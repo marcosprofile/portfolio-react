@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import './card.css'
 
 export default function Card(props) {
@@ -7,6 +8,9 @@ export default function Card(props) {
       <div className="info">
         <h3>{props.nome}</h3>
         <p>{props.descricao}</p>
+        <a class="card__link" href={props.link} id={props.mostrarBotao} target="_blank">
+          {props.botao}
+        </a>
       </div>
     </div>
   )

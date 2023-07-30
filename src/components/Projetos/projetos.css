@@ -2,26 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  padding: 0 16em;
-}
-
-@media (max-width: 1440px) {
-  .container__projetos {
-    padding: 0 6em;
-  }
-}
-
-@media (max-width: 768px) {
-  .container__projetos {
-    padding: 0 1em;
-  }
 }
 
 @media (max-width: 600px) {
   .container__projetos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
     gap: 1em;
   }
 
@@ -30,6 +14,6 @@
   }
 
   .container__projetos .card .info p {
-    font-size: 14px;
+    font-size: 13px;
   }
 }

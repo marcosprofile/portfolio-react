@@ -11,10 +11,12 @@ export default function servicos() {
         <Card
           nome="UI/UX Designer"
           imagem={Designer}
+          mostrarBotao="ocultar"
           />
         <Card
           nome="Front-end"
           imagem={Frontend}
+          mostrarBotao="ocultar"
           />
       </div>
     </div>
