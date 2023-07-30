@@ -8,6 +8,7 @@ header {
   justify-content: center;
   padding: 1.5em;
   background: var(--secondary);
+  box-shadow: 0 16px 12px rgb(0, 0, 0, 0.3);
   z-index: 1;
 }
 

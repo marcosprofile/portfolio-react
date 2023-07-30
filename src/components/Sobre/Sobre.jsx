@@ -1,5 +1,10 @@
 /* eslint-disable react/jsx-no-target-blank */
 import RedeSocial from '../RedeSocial/RedeSocial';
+import GitHub from '../../assets/img/redes/github.png';
+import Behance from '../../assets/img/redes/behance.png';
+import LinkedIn from '../../assets/img/redes/linkedin.png';
+import Outlook from '../../assets/img/redes/outlook.png';
+
 import './sobre.css';
 
 
@@ -19,22 +24,22 @@ export default function Sobre(props) {
       <div className="container_redes">
         <RedeSocial
           link="https://github.com/marcosprofile"
-          imagem="img/redes/github.png"
+          imagem={GitHub}
           nome="GitHub"
         />
         <RedeSocial
           link="https://www.behance.net/marcoslferreira"
-          imagem="img/redes/behance.png"
+          imagem={Behance}
           nome="Behance"
         />
         <RedeSocial
           link="https://www.linkedin.com/in/marcosdesigntech/"
-          imagem="img/redes/linkedin.png"
+          imagem={LinkedIn}
           nome="LinkedIn"
         />
         <RedeSocial
           link="mailto:marcos.designtech@hotmail.com"
-          imagem="img/redes/outlook.png"
+          imagem={Outlook}
           nome="Outlook"
         />
       </div>
