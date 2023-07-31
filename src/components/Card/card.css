@@ -31,6 +31,7 @@
   text-align: center;
   padding: 0 1em;
   height: 100%;
+  color: var(--text);
 }
 
 .info h3 {
@@ -40,7 +41,8 @@
 .info p {
   line-height: 156%;
   font-weight: 400;
-  color: #5C6375;
+  color: var(--text);
+  opacity: .6;
 }
 
 #exibir {

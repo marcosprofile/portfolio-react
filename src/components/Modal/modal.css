@@ -1,0 +1,17 @@
+.modal-content {
+  background: var(--background);
+}
+
+.btn.primary, .btn.secondary {
+  background: var(--primary);
+  color: var(--text);
+}
+
+.btn.primary:active, .btn.secondary:active {
+  background: var(--primary);
+  color: var(--text);
+}
+
+.modal-footer .secondary {
+  padding: .5em;
+}
