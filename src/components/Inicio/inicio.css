@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 1em;
+  width: 400px;
 }
 
 .home img {
@@ -28,9 +29,16 @@
 
 .primary, .secondary {
   font-weight: 600;
+  font-size: 1em;
   border-radius: .5em;
   padding: 1em;
   transition: .2s all linear;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.actions .secondary {
+  width: 100%;
 }
 
 .primary {
