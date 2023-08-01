@@ -4,11 +4,22 @@
 
 .btn.primary, .btn.secondary {
   background: var(--primary);
+  border: none;
   color: var(--text);
+}
+
+.actions .btn.primary {
+  width: 100%;
+}
+
+.modal-footer .btn.secondary {
+  width: max-content;
 }
 
 .btn.primary:active, .btn.secondary:active {
   background: var(--primary);
+  border: none;
+  border-color: none;
   color: var(--text);
 }
 
